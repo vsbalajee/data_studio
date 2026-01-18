@@ -1,0 +1,37 @@
+{
+  "dataset": "7cde8b5a7e4d47bca81b112cc009b297_customers.xlsx",
+  "report_groups": {
+    "core": [
+      "core_dataset_overview.csv",
+      "core_column_profile_summary.csv",
+      "core_missing_values.csv",
+      "core_duplicate_rows.csv",
+      "core_numeric_summary.csv",
+      "core_top_categories_-_customer_id.csv",
+      "core_top_categories_-_customer_name.csv",
+      "core_top_categories_-_city.csv",
+      "core_top_categories_-_kyc_status.csv",
+      "core_top_categories_-_email.csv"
+    ],
+    "advanced": [
+      "advanced_pareto_summary.csv",
+      "advanced_skewness.csv",
+      "advanced_mean_vs_median.csv"
+    ],
+    "time": [],
+    "quality": [
+      "quality_outlier_summary.csv",
+      "quality_robust_outliers__mad_.csv",
+      "quality_label_variants.csv",
+      "quality_numeric_drift.csv",
+      "quality_category_drift.csv",
+      "quality_time_series_spikes.csv",
+      "quality_invalid_emails_-_email.csv"
+    ],
+    "rows": [
+      "rows_rows_with_most_missing_values.csv",
+      "rows_extreme_numeric_rows.csv",
+      "rows_rare_pattern_rows.csv"
+    ]
+  }
+}

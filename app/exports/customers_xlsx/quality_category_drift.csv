@@ -1,0 +1,6 @@
+column,distribution_shift
+customer_id,2.0
+customer_name,2.0
+city,0.24
+kyc_status,0.24
+email,2.0

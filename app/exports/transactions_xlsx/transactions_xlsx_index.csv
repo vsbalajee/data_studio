@@ -1,0 +1,30 @@
+file,title,description
+core_dataset_overview.csv,Dataset Overview,A quick snapshot of row and column counts.
+core_column_profile_summary.csv,Column Profile Summary,"Type, missing count, and unique values per column."
+core_missing_values.csv,Missing Values,Missing values per column with rates.
+core_duplicate_rows.csv,Duplicate Rows,Total number of duplicate rows in the dataset.
+core_numeric_summary.csv,Numeric Summary,"Basic stats (min, max, mean, etc.) for numeric columns."
+core_top_categories_-_txn_id.csv,Top Categories - txn_id,Most common values and their counts.
+core_top_categories_-_account_no.csv,Top Categories - account_no,Most common values and their counts.
+core_top_categories_-_channel.csv,Top Categories - channel,Most common values and their counts.
+core_top_categories_-_status.csv,Top Categories - status,Most common values and their counts.
+core_top_categories_-_utr.csv,Top Categories - utr,Most common values and their counts.
+advanced_pareto_summary.csv,Pareto Summary,Top categories with cumulative contribution.
+advanced_skewness.csv,Skewness,Skewness for numeric columns.
+advanced_mean_vs_median.csv,Mean vs Median,Compare mean and median for numeric columns.
+advanced_distribution_-_amount.csv,Distribution - amount,Bucketed distribution for numeric values.
+time_trend__d__-_txn_date.csv,Trend (D) - txn_date,Counts or totals grouped by time.
+time_trend__m__-_txn_date.csv,Trend (M) - txn_date,Counts or totals grouped by time.
+time_period-over-period__m__-_txn_date.csv,Period-over-Period (M) - txn_date,Current vs previous period changes.
+time_trend__d__-_amount.csv,Trend (D) - amount,Counts or totals grouped by time.
+time_trend__m__-_amount.csv,Trend (M) - amount,Counts or totals grouped by time.
+time_period-over-period__m__-_amount.csv,Period-over-Period (M) - amount,Current vs previous period changes.
+quality_outlier_summary.csv,Outlier Summary,IQR-based outlier counts per numeric column.
+quality_robust_outliers__mad_.csv,Robust Outliers (MAD),Median absolute deviation based outlier counts.
+quality_label_variants.csv,Label Variants,Columns with inconsistent text variants (case/spacing).
+quality_numeric_drift.csv,Numeric Drift,Mean shift between first and second halves of the data.
+quality_category_drift.csv,Category Drift,Distribution shift between first and second halves.
+quality_time_series_spikes.csv,Time Series Spikes,Detect spikes/drops in monthly record counts.
+rows_rows_with_most_missing_values.csv,Rows with Most Missing Values,Rows that have the highest number of missing cells.
+rows_extreme_numeric_rows.csv,Extreme Numeric Rows,Rows with the strongest numeric extremes.
+rows_rare_pattern_rows.csv,Rare Pattern Rows,Rows with rare category combinations.

@@ -1,0 +1,6 @@
+column,dtype,missing,missing_rate,unique
+customer_id,object,0,0.0,50
+customer_name,object,0,0.0,50
+city,object,0,0.0,5
+kyc_status,object,0,0.0,3
+email,object,0,0.0,50

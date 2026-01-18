@@ -1,0 +1,11 @@
+customer_id,customer_name,city,kyc_status,email,missing_count
+CUST1000,Customer 1,Mumbai,Verified,user1@example.com,0
+CUST1001,Customer 2,Chennai,Verified,user2@example.com,0
+CUST1002,Customer 3,Chennai,Verified,user3@example.com,0
+CUST1003,Customer 4,Bengaluru,Verified,user4@example.com,0
+CUST1004,Customer 5,Bengaluru,Verified,user5@example.com,0
+CUST1005,Customer 6,Hyderabad,Verified,user6@example.com,0
+CUST1006,Customer 7,Mumbai,Rejected,user7@example.com,0
+CUST1007,Customer 8,Chennai,Verified,user8@example.com,0
+CUST1008,Customer 9,Delhi,Verified,user9@example.com,0
+CUST1009,Customer 10,Mumbai,Verified,user10@example.com,0

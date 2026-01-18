@@ -1,0 +1,8 @@
+column,dtype,missing,missing_rate,unique
+txn_id,object,0,0.0,300
+account_no,object,0,0.0,50
+txn_date,datetime64[ns],0,0.0,208
+amount,float64,0,0.0,300
+channel,object,0,0.0,6
+status,object,0,0.0,3
+utr,object,0,0.0,300

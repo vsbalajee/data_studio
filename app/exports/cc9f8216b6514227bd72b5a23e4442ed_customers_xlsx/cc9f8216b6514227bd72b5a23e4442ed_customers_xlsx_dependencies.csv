@@ -1,0 +1,17 @@
+report,group
+core_dataset_overview.csv,core
+core_column_profile_summary.csv,core
+core_missing_values.csv,core
+core_duplicate_rows.csv,core
+core_numeric_summary.csv,core
+core_top_categories_-_customer_id.csv,core
+core_top_categories_-_customer_name.csv,core
+core_top_categories_-_city.csv,core
+core_top_categories_-_kyc_status.csv,core
+core_top_categories_-_email.csv,core
+advanced_pareto_summary.csv,advanced
+advanced_skewness.csv,advanced
+advanced_mean_vs_median.csv,advanced
+rows_rows_with_most_missing_values.csv,rows
+rows_extreme_numeric_rows.csv,rows
+rows_rare_pattern_rows.csv,rows

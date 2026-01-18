@@ -1,0 +1,12 @@
+streamlit
+pandas
+polars
+pyarrow
+openpyxl
+numpy
+scipy
+statsmodels
+python-dateutil
+pydantic
+fastapi
+uvicorn

@@ -1,0 +1,44 @@
+{
+  "dataset": "transactions.xlsx",
+  "report_groups": {
+    "core": [
+      "core_dataset_overview.csv",
+      "core_column_profile_summary.csv",
+      "core_missing_values.csv",
+      "core_duplicate_rows.csv",
+      "core_numeric_summary.csv",
+      "core_top_categories_-_txn_id.csv",
+      "core_top_categories_-_account_no.csv",
+      "core_top_categories_-_channel.csv",
+      "core_top_categories_-_status.csv",
+      "core_top_categories_-_utr.csv"
+    ],
+    "advanced": [
+      "advanced_pareto_summary.csv",
+      "advanced_skewness.csv",
+      "advanced_mean_vs_median.csv",
+      "advanced_distribution_-_amount.csv"
+    ],
+    "time": [
+      "time_trend__d__-_txn_date.csv",
+      "time_trend__m__-_txn_date.csv",
+      "time_period-over-period__m__-_txn_date.csv",
+      "time_trend__d__-_amount.csv",
+      "time_trend__m__-_amount.csv",
+      "time_period-over-period__m__-_amount.csv"
+    ],
+    "quality": [
+      "quality_outlier_summary.csv",
+      "quality_robust_outliers__mad_.csv",
+      "quality_label_variants.csv",
+      "quality_numeric_drift.csv",
+      "quality_category_drift.csv",
+      "quality_time_series_spikes.csv"
+    ],
+    "rows": [
+      "rows_rows_with_most_missing_values.csv",
+      "rows_extreme_numeric_rows.csv",
+      "rows_rare_pattern_rows.csv"
+    ]
+  }
+}
